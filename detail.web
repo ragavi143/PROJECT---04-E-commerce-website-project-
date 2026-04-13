@@ -1,0 +1,40 @@
+1.	AIM: 
+To design and develop a Full E-Commerce Website using HTML, CSS, and JavaScript that allows users to view products, navigate between pages, and interact with a simple online shopping interface. 
+ 
+ 
+2.	OBJECTIVES: 
+•	To create a multi-page website using HTML. 
+•	To design an attractive user interface using CSS. 
+•	To implement interactivity using JavaScript. 
+•	To display products with images and prices. 
+•	To provide navigation between Home, About, Service, and Contact pages. 
+•	To understand the structure of an e-commerce website. 
+ 
+3.	ALGORITHM: 
+Step 1: Start the program 
+Step 2: Display the Home page 
+Step 3: Show navigation menu 
+Step 4: Display product list with images 
+Step 5: Allow user to navigate to other pages 
+Step 6: Accept user input in contact form 
+Step 7: Display submitted information Step 8: Stop the program 
+ 
+4.	FUTURE ENHANCEMENT: 
+•	Add login and registration system 
+•	Connect to database 
+•	Add payment gateway 
+•	Add search functionality 
+•	Improve security 
+ 
+ 
+HTML, CSS & JavaScript Code: 
+STEP 1: Create a folder named: 
+ecommerce-website 
+ 
+STEP 2: Inside the folder create these 5 files: 
+1.	index.html 
+2.	about.html 
+3.	service.html 
+4.	contact.html 
+5.	style.css 
+ 
