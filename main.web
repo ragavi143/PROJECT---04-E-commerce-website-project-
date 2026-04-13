@@ -1,0 +1,242 @@
+FILE 1: style.css 
+================================================== 
+ body { 
+font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4; 
+} 
+ header { 
+background-color: #333; color: white; padding: 15px; text-align: center; 
+} 
+ nav a { 
+color: white; margin: 10px; text-decoration: none; font-weight: bold; 
+} 
+ 
+.container { padding: 20px; 
+} 
+ 
+.products { display: flex; gap: 20px; flex-wrap: wrap; 
+} 
+ 
+.product { background: white; padding: 15px; width: 220px; border-radius: 10px; box-shadow: 0 0 8px gray; text-align: center; 
+} 
+ 
+.product img { width: 180px; height: 180px; 
+} 
+ button { 
+padding: 10px 15px; background-color: green; color: white; border: none; border-radius: 5px; cursor: pointer; 
+} 
+ button:hover { 
+background-color: darkgreen; 
+} 
+ footer { 
+background-color: #333; color: white; text-align: center; padding: 10px; margin-top: 20px; 
+} 
+ input, textarea { padding: 8px; width: 250px; 
+} 
+ 
+================================================== FILE 2: index.html (HOME PAGE) 
+================================================== 
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Home Page</title> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+ 
+<body> 
+ 
+<header> 
+<h1>My E-Commerce Store</h1> 
+ 
+<nav> 
+<a href="index.html">Home</a> 
+<a href="about.html">About</a> 
+<a href="service.html">Service</a> 
+<a href="contact.html">Contact</a> 
+</nav> 
+</header> 
+ 
+<div class="container"> 
+ 
+<h2>Our Products</h2> 
+ 
+<div class="products"> 
+ 
+<div class="product"> 
+<img src="https://m.media-amazon.com/images/I/61CGHv6kmWL._SX522_.jpg"> 
+<h3>Wireless Headphones</h3> <p>Price: ₹1500</p> 
+<button>Add to Cart</button> 
+</div> 
+ 
+<div class="product"> 
+<img src="https://m.media-amazon.com/images/I/61y2VVWcGBL._SX522_.jpg"> 
+<h3>Smart Watch</h3> 
+<p>Price: ₹2500</p> 
+<button>Add to Cart</button> 
+</div> 
+ 
+<div class="product"> 
+<img src="https://m.media-amazon.com/images/I/71geVdy6-OS._SX522_.jpg" alt="Mobile Phone"> 
+<h3>Mobile Phone</h3> 
+<p>Price: ₹15000</p> 
+<button>Add to Cart</button> 
+ 
+</div> 
+</div> 
+ 
+</div> 
+ 
+<footer> 
+<p>© 2026 My E-Commerce Website</p> 
+</footer> 
+ 
+</body> 
+</html> 
+ 
+================================================== 
+FILE 3: about.html (ABOUT PAGE) 
+================================================== 
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>About Page</title> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+ 
+<body> 
+ 
+<header> 
+<h1>About Us</h1> 
+ 
+<nav> 
+<a href="index.html">Home</a> 
+<a href="about.html">About</a> 
+<a href="service.html">Service</a> 
+<a href="contact.html">Contact</a> 
+</nav> 
+ 
+</header> 
+ 
+<div class="container"> 
+ 
+<h2>About Our Store</h2> 
+ 
+<p> 
+We are an online shopping store providing quality products like headphones, watches, and shoes at affordable prices. 
+</p> 
+ 
+<p> 
+Our goal is to provide the best service and fast delivery to customers. </p> 
+ 
+</div> 
+ 
+<footer> 
+<p>© 2026 My E-Commerce Website</p> 
+</footer> 
+ 
+</body> 
+</html> 
+ 
+================================================== 
+FILE 4: service.html (SERVICE PAGE) 
+================================================== 
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Service Page</title> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+ 
+<body> 
+ 
+<header> 
+<h1>Our Services</h1> 
+ 
+<nav> 
+<a href="index.html">Home</a> 
+<a href="about.html">About</a> 
+<a href="service.html">Service</a> 
+<a href="contact.html">Contact</a> 
+</nav> 
+ 
+</header> 
+ 
+<div class="container"> 
+ 
+<h2>Services We Provide</h2> 
+<ul> 
+<li>Online Shopping</li> 
+<li>Fast Delivery</li> 
+<li>24/7 Customer Support</li> 
+<li>Easy Returns</li> 
+</ul> 
+ 
+</div> 
+ 
+<footer> 
+<p>© 2026 My E-Commerce Website</p> 
+</footer> 
+ 
+</body> 
+</html> 
+ 
+================================================== FILE 5: contact.html (CONTACT PAGE) 
+================================================== 
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Contact Page</title> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+ 
+<body> 
+ 
+<header> 
+<h1>Contact Us</h1> 
+ 
+<nav> 
+<a href="index.html">Home</a> 
+<a href="about.html">About</a> 
+<a href="service.html">Service</a> 
+<a href="contact.html">Contact</a> 
+</nav> 
+ 
+</header> 
+ 
+<div class="container"> 
+ 
+<h2>Contact Form</h2> 
+ 
+<form> 
+ 
+<label>Name:</label> 
+<br> 
+<input type="text" placeholder="Enter your name"> 
+ 
+<br><br> 
+ 
+<label>Email:</label> 
+<br> 
+<input type="email" placeholder="Enter your email"> <br><br> 
+ 
+<label>Message:</label> 
+<br> 
+<textarea rows="4" cols="30" placeholder="Enter your message"></textarea> 
+ 
+<br><br> 
+ 
+<button type="submit">Submit</button> 
+ 
+</form> 
+ 
+</div> 
+ 
+<footer> 
+<p>© 2026 My E-Commerce Website</p> 
+</footer> 
+ 
+</body> 
+</html>  
